@@ -269,9 +269,60 @@
 </section>
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-<h2>Contact Us</h2>
+<section>
 
-First Name (Enter first name)
+<h2>Contact Us</h2>
+<form>
+  <label for="name">First Name</label>
+  <input id="name" name="name" type="text" placeholder="Enter first name">
+
+  <label for="last">Last Name</label>
+  <input id="last" name="last" type="text" placeholder="Enter last name">
+
+
+  <fieldset>
+    <legend>Contact Method</legend>
+
+    <input type="radio" id="email" value="email">
+    <label for="email">Email</label>
+
+    <input type="radio" id="phone" value="phone">
+    <label for="phone">Phone</label>
+
+    <input type="radio" id="text" value="text">
+    <label for="text">Text</label>
+  </fieldset>
+
+
+  <label for="email-address">Email Address</label>
+  <input id="email-address" name="email-address" type="email" placeholder="Enter Email">
+
+  <label for="phone-number">Phone number</label>
+  <input id="phone-number" name="phone-number" type="tel" placeholder="Enter telephone number">
+
+  <label for="destination">Destination</label>
+  <select id="destination" name="destination">
+    <option value="Barcelona">Barcelona</option>
+    <option value="Granada">Granada</option>
+    <option value="Ibiza">Ibiza</option>
+    <option value="Madrid">Madrid</option>
+    <option value="Majorca">Majorca</option>
+    <option value="Seville">Seville</option>
+    <option value="Tenerife">Tenerife</option>
+    <option value="Valencia">Valencia</option>
+  </select>
+
+  <label for="travel-time">Travel Time</label>
+  <select id="travel-time" name="travel-time">
+    <option value="Fall">Fall</option>
+    <option value="Winter">Winter</option>
+    <option value="Spring">Spring</option>
+    <option value="Summer">Summer</option>
+    <option value="Flexible">Flexible</option>
+  </select>
+</form>
+
+<!-- First Name (Enter first name)
 Last Name (Enter last name)
 
 Contact Method (Email, Text, Phone)
@@ -279,10 +330,12 @@ Email Address (Enter Email)
 Phone Number (Enter telephone number)
 
 Destination (Barcelona, Granada, Ibiza, Madrid, Majorca, Seville, Tenerife, Valencia)
-Travel Time (Fall, Winter, Spring, Summer, Flexible)
+Travel Time (Fall, Winter, Spring, Summer, Flexible) -->
 
+</section>
 
-
-Copyright 2021 Wunderlust
-Privacy Statement
-Terms of Service
+<footer>
+<p><small>Copyright 2021 Wunderlust</small></p>
+<p><small>Privacy Statement</small></p>
+<p><small>Terms of Service</small></p>
+</footer>
