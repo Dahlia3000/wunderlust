@@ -100,6 +100,7 @@ table {
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr; 
 	padding: 1em;
+	background-image: linear-gradient(var(--teal), var(--white));
   }
 
 
@@ -210,8 +211,10 @@ table {
 
   #plan h3{
 	font-size: 3em;
-	text-align: center;
+	text-align: left;
+	margin-left: 20px;
 	padding: 0.7em;
+	padding-bottom: 5px;
   }
 
   #plan section{
@@ -227,9 +230,101 @@ table {
 	font-family: "Montserrat";
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.7em;
+	text-align: center;
   }
 
   #plan img{
 	padding: 1em;
+  }
+
+  #testimonials h3{
+	font-size: 3em;
+	text-align: left;
+	margin-left: 20px;
+	padding: 0.7em;
+	padding-bottom: 5px;
+  }
+
+  #testimonials section{
+	display: grid;
+	justify-items: center;
+  }
+
+  #testimonials h4{
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0.3em;
+  }
+
+  #testimonials p{
+	font-size: 1.3em;
+  }
+
+  #testimonials q{
+	font-style: italic;
+	text-align: center;
+	margin: 0.3em 3.5em;
+	font-size: 1.3em;
+	line-height: 1.3em;
+  }
+
+  #about{
+	background-color: var(--blue);
+  }
+
+  #about h3{
+	font-size: 3em;
+	padding: 0.5em 0.7em;
+	line-height: 1.3em;
+  }
+
+  #about div{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	justify-content: center;
+  }
+
+  #about div:first-child{
+	justify-self: end;
+  }
+
+  #about img{
+	width: 120px;
+  }
+
+  #about h4{
+	font-weight: bold;
+	font-size: 1.3em;
+	text-transform: uppercase;
+  }
+
+  #about p{
+	font-size: 1.2em;
+  }
+
+  #contact h3{
+	font-size: 3em;
+	margin-left: 0.7em;
+	margin-top: 0.7em;
+  }
+
+  #contact h3 span{
+	font-weight: lighter;
+	font-size: 0.5em;
+  }
+
+  #contact form{
+	display: block;
+	padding: 1em;
+  }
+
+  #contact{
+	font-size: 1.5em;
+  }
+
+  #contact input, label, fieldset{
+	display: inline-block;
+	width: 90%;
   }
