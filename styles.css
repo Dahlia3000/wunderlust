@@ -511,6 +511,70 @@ footer a{
 	#plan div{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr;
+		grid-template-rows:1fr 1fr;
+	}
+
+	#testimonials div{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows:1fr 1fr;
+	}
+
+	#about div{
+		display: flex;
+	}
+
+	#about img{
+		width: 50px;
+	}
+
+	#contact input, select{
+		width: 56em;
+	  }
+	
+	
+	  #names{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		padding: 0px;
+	  }
+	  
+	#nums fieldset{
+		display: flex;
+		justify-content: start;
+		gap: 5em;
+	}
+	
+	#nums label{
+		display: flex;
+		margin: 1em 0;
+		justify-content: start;
+		width: 40px;
+	}
+	
+	#selects{
+		display: grid;
+		grid-template-columns: 1fr;
+		margin: 1em auto;
+	}
+	
+	#destination{
+		width: 755px;
+		height: 90px;
+		margin: 1em auto;
+	}
+	
+	#travelTime{
+		width: 755px;
+		height: 90px;
+		margin: 1em auto;
+	}
+	
+	#mySubmit{
+		background-color: #9B26B0;
+		color: var(--white);
+		font-size: 1em;
+		text-transform: uppercase;
 	}
 }
