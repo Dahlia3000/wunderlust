@@ -688,12 +688,18 @@ footer a{
 	#testimonials div{
 		display: flex;
 		justify-content: center;
+		justify-items: center;
 		margin: 0;
-		gap: 4em;
+		gap: 5em;
 	}
 
 	#testimonials section{
 		flex-basis: 150px;
+		justify-content: center;
 
+	}
+
+	#testimonials h4{
+		align-self: center;
 	}
 }
