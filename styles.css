@@ -571,10 +571,19 @@ footer a{
 		margin: 1em auto;
 	}
 	
-	#mySubmit{
-		background-color: #9B26B0;
-		color: var(--white);
-		font-size: 1em;
-		text-transform: uppercase;
+	footer{
+		height: 75px;
+		display: flex;
+		gap: 1.3em;
+		align-items: center;
+		
+	}
+
+	footer a{
+		padding: 0;
+	}
+
+	footer p{
+		padding: 0;
 	}
 }
