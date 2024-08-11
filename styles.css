@@ -662,11 +662,38 @@ footer a{
 	}
 
 	#plan{
-		width: 1100px;
+		padding: 4em;
 	}
+
 	#plan div{
 		display: flex;
 		width: 100%;
+		align-items: center;
 	}
 
+	#plan div section{
+		width: 150px;
+		height: 150px;
+	}
+
+	#plan img{
+		width: 120px;
+	}
+
+	#plan h4{
+		font-size: 1.25em;
+		width: 150px;
+	}
+
+	#testimonials div{
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		gap: 4em;
+	}
+
+	#testimonials section{
+		flex-basis: 150px;
+
+	}
 }
